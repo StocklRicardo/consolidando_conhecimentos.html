@@ -1,0 +1,81 @@
+<meta charset = "UTF-8">
+
+<script>
+  function pulaLinha() {
+    document.write("<br><br>")
+  }
+
+function pulaLinha2() {
+  document.write("<br><hr><br>")
+}
+
+  function mostra(frase) {
+    document.write(frase)
+    pulaLinha()
+  }
+
+            // intenção é treinar neste espaço para consolidar conhecimento.
+
+
+alert("Olá! Me ajude com esse meu primeiro teste, e deixe sua opinião do que achou la no meu zap! vlw"),
+pulaLinha();
+
+
+var nome = prompt("Qual seu nome?")
+
+
+mostra("<h1>" + nome + " Seja bem vindo ao meu primeiro teste do  ALURA </h1>")
+pulaLinha2()
+
+mostra("Vote Bolsonaro em 2018")
+pulaLinha2();
+
+mostra("mas antes vamos responder esta perguntinha?")
+
+
+mostra("1_ Maria tinha 12 laranjas,em um dia  ela chupou 5 laranjas, e deu 3 para seu irmão, quantas laranjas sobraram para Maria chupar no dia seguinte?")
+
+var mariaChupou = 5
+var irmaoChupou = 3
+var totalLaranjas = 12
+var sobrouLaranjas = totalLaranjas - mariaChupou - irmaoChupou;
+
+    //mostra("ficaram " + sobrouLaranjas + " laranjas para o dia seguinte");
+</script>
+
+<label></label>
+ Resposta = <input type="resposta" id= "4" /><br><br>
+
+
+<script>
+
+mostra("no inicio da tela você digitou seu peso e altura, sabe pra que?")
+mostra("isso mesmo, vou calcular seu IMC, ja que agora to fitness, rs")
+mostra("E então, bora lá saber seu IMC?")
+
+function calculaImc (peso , altura) {
+        return peso / (altura * altura)
+}
+
+var pesoInformado = prompt("Qual seu peso " + nome + " ? somente números")
+var alturaInformada = prompt("Qual sua altura " + nome + " ? use o . ao envez da ,")
+var imc = calculaImc (pesoInformado , alturaInformada)
+mostra("Bom, " + nome + " seu imc é de " + imc);
+
+
+
+pulaLinha()
+pulaLinha()
+pulaLinha()
+pulaLinha()
+pulaLinha()
+pulaLinha()
+pulaLinha()
+pulaLinha()
+pulaLinha()
+pulaLinha()
+pulaLinha()
+mostra(" se você respondeu " + sobrouLaranjas + ", você acertou!")
+pulaLinha2();
+
+</script>
